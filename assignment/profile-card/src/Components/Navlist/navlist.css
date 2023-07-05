@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: #ffffffff;
+  font-weight: 500;
+  line-height: 24.59px;
+  width: 58px;
+  height: 25px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+  gap: 35px;
+}
+
+li {
+  margin: 5px;
+  min-width: 113px;
+}
+
+a {
+  flex-grow: 1;
+}
+
+.imageList {
+  width: 20%;
+  margin: 10px;
+}
+
+.image {
+  width: 112.74px;
+  height: 25.15px;
+  object-fit: cover;
+  margin: 5px auto;
+}

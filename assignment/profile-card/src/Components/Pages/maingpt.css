@@ -1,0 +1,46 @@
+.mainContainer {
+  background: #07325f;
+  padding: 30px 30px 10px 30px;
+  margin-top: 80px;
+}
+
+.layer1,
+.layer2,
+.layer3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto 80px;
+}
+
+.layer3 {
+  gap: 10px;
+}
+
+.layer1 p {
+  min-width: 60%;
+}
+
+.lineHeader {
+  min-width: 30%;
+}
+
+.lineHeader h1 {
+  min-width: 80%;
+  color: #fff;
+}
+
+.small-Guy {
+  height: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff8a71;
+}
+
+.lineHeaderColor {
+  color: #fff;
+  background: linear-gradient(103.22deg, #ffffff 100%, #ffffff 99.55%), #ffffff;
+  -webkit-background-clip: text;
+}

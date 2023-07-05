@@ -1,0 +1,58 @@
+.headerContainer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.headerDescription {
+  width: 55%;
+  margin-top: ;
+}
+.headerTitle {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0.9;
+  text-align: left;
+  width: 100%;
+}
+
+.headerParagraph {
+  color: #81afdd;
+  text-align: left;
+  margin: 15px auto;
+  font-size: 16px;
+}
+
+.form {
+  display: flex;
+  margin: 15px auto;
+}
+.form input,
+.form .btnComp {
+  flex-grow: 1;
+}
+
+.form input::placeholder {
+  color: #3d6184;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+}
+
+.headerImage {
+  width: 40%;
+  height: 702px;
+  object-fit: cover;
+}

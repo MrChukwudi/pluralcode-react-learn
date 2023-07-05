@@ -1,0 +1,43 @@
+.featureContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.headerLeft {
+  max-width: 30%;
+}
+
+.headerLeft h1 {
+  width: 100%;
+  font-weight: 700;
+}
+
+.smallGuy {
+  height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ff8a71;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.contentRight {
+  width: 60%;
+}
+
+.contentCard {
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lineHeaderColor {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+}
